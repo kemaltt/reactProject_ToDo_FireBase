@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/reactProject_ToDo_FireBase/static/css/main.44c0bd24.css",
-    "main.js": "/reactProject_ToDo_FireBase/static/js/main.009aa965.js",
+    "main.css": "/reactProject_ToDo_FireBase/static/css/main.8073d37d.css",
+    "main.js": "/reactProject_ToDo_FireBase/static/js/main.dafa48d1.js",
     "static/js/787.7b63f85e.chunk.js": "/reactProject_ToDo_FireBase/static/js/787.7b63f85e.chunk.js",
     "static/media/logo.svg": "/reactProject_ToDo_FireBase/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/reactProject_ToDo_FireBase/index.html",
-    "main.44c0bd24.css.map": "/reactProject_ToDo_FireBase/static/css/main.44c0bd24.css.map",
-    "main.009aa965.js.map": "/reactProject_ToDo_FireBase/static/js/main.009aa965.js.map",
+    "main.8073d37d.css.map": "/reactProject_ToDo_FireBase/static/css/main.8073d37d.css.map",
+    "main.dafa48d1.js.map": "/reactProject_ToDo_FireBase/static/js/main.dafa48d1.js.map",
     "787.7b63f85e.chunk.js.map": "/reactProject_ToDo_FireBase/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44c0bd24.css",
-    "static/js/main.009aa965.js"
+    "static/css/main.8073d37d.css",
+    "static/js/main.dafa48d1.js"
   ]
 }
