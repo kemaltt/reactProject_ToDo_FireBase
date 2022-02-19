@@ -1,7 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/30/09/53/todo-lists-5238324_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .App {
     text-align: center;
 }
 
+h1 {
+    font-family: "Montserrat", sans-serif !important;
+    margin: 1rem;
+}
+
 .add-btn {
     height: 55px;
+}
+
+.input {
+    width: 400px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    margin-top: 1rem;
+    box-shadow: 10px 5px 20px black;
+    border-radius: 10px 10px 0 0;
+    width: 500px;
+}
+
+.body {
+    /* font-size: 25px !important; */
+    /* background-color: #fff; */
+    border-radius: 0px 0px 10px 10px;
+    width: 500px;
+    padding: 1rem;
+}
+
+.list-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-to-do {
+    background-color: #f57c00;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+    text-align: center;
+    font-family: "Amatic SC", cursive !important;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #fff;
+    width: 500px;
+    height: 50px;
+}
+
+.head-to-do h2 {}
+
+.MuiGrid-root {
+    width: 500px;
+    background-color: rgb(231, 231, 231);
+    /* background-color: #fff; */
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px black;
+    margin-top: 6px !important;
+    height: 20px !important;
+}
+
+.MuiGrid-root:hover {
+    background-color: white;
+    box-shadow: 10px 5px 20px black;
 }

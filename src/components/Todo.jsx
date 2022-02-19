@@ -8,11 +8,12 @@ import IconButton from "@mui/material/IconButton";
 import Grid from "@mui/material/Grid";
 import DeleteIcon from "@mui/icons-material/Delete";
 import LabelRoundedIcon from "@mui/icons-material/LabelRounded";
+import { height } from "@mui/system";
 
 export default function Todo(props) {
   return (
-    <Grid item xs={12} md={6}>
-      <List dense={false} style={{ textAlign: "center" }}>
+    <Grid item xs={12} md={11}>
+      <List className="list" dense={false} style={{ textAlign: "center" }}>
         <ListItem
           secondaryAction={
             <IconButton

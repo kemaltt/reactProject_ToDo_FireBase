@@ -60,10 +60,12 @@ export default function Main() {
       <h1>TO DO APP</h1>
       <form onSubmit={addTodo}>
         <TextField
+          className="input"
           onChange={handleInputChange}
           id="outlined-basic"
           label="Outlined"
           variant="outlined"
+          // color="secondary"
           value={input}
         />
         <Button
@@ -76,11 +78,20 @@ export default function Main() {
           Add TODO
         </Button>
       </form>
-      <ul>
-        {todos.map((obj) => {
-          return <Todo id={obj.id} deleteItem={deleteItem} todo={obj.todo} />;
-        })}
-      </ul>
+      <div className="list-container">
+        <div className="box">
+          <div class="head-to-do">TO DO</div>
+          <div className="body">
+            <ul className="list-ul">
+              {todos.map((obj) => {
+                return (
+                  <Todo id={obj.id} deleteItem={deleteItem} todo={obj.todo} />
+                );
+              })}
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
